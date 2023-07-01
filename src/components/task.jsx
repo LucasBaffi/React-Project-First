@@ -1,11 +1,10 @@
-import React  from "react";
-import{ToDo} from '/ToDo.jsx';
 
-const task = () => {
-   
-    return (
-   {ToDo}
-    )
+
+
+const task = ({ task }) => {
+
+    return <li>{task}</li>;
+
 }
 
 export default task;
